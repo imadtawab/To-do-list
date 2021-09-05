@@ -1,0 +1,170 @@
+* {
+  text-align: center;
+  color: #fff;
+  border-radius:4px;
+  transition: all .2s;
+}
+body {
+ 
+  height:100vh;
+
+  
+  background-color: rgb(59 54 82);
+
+}
+.awal{
+  background-image: linear-gradient(
+    to top,
+    rgb(59 54 82),
+    rgb(121, 113, 161)
+  );
+}
+main{
+  background-color: rgb(59 54 82);
+}
+.title {
+  font-size: 40px;
+}
+.container {
+  padding: 15px;
+  border-bottom:3px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  width:60%;
+  margin: 30px auto;
+  opacity: .8;
+  background-color:rgb(130, 130, 168);
+  height:25px;
+  
+}
+
+.star:hover{
+    color:yellow;
+}
+.icon:hover{
+    transform:scale(1.2,1.2);
+    cursor:pointer;
+}
+.parent {
+
+  width:60px;
+}
+
+
+.corbeil {
+  /* position: absolute;
+  left: 0px; */
+  float: left;
+}
+.angry{
+    color:rgb(255, 255, 0);
+    float:right;
+}
+.parent2{
+    display:flex;
+    justify-content: center;
+    width:60%;
+    margin:auto;
+}
+.dow{
+    all:unset;
+    margin: 10px;
+    font-size:30px;
+}
+
+.dow:hover{
+  transform:scale(1.1,1.1);
+}
+
+.input{
+    color:rgb(83, 83, 83);
+    font-size: 20px;
+    padding-left:20px;
+    padding-right:20px;
+    border: 0px;
+
+}
+
+.dn{
+  display: none;
+}
+
+
+
+.heart{
+  font-size:18px;
+  color:rgba(255, 42, 42, 0.877);
+  float:right;
+
+}
+
+.textdecoration{
+  text-decoration:2px line-through rgba(255, 0, 0, 0.657);
+
+}
+
+.orange-star{
+  color:orange;
+}
+.task{
+  font-size:18px;
+}
+.icon:not(.dow){
+  font-size:20px;
+}
+form{
+  margin-bottom:100px;
+}
+
+
+
+footer{
+  margin-top:30px;
+  background-color: rgb(59 54 82);
+  max-width:100%;
+  padding:20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow:0 0 20px rgba(255, 255, 255, 0.657) ;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:0;
+}
+header{
+  background-color: rgb(113 105 151);
+  box-shadow:0 0 20px rgba(255, 255, 255, 0.657) ;
+  padding:20px;
+width:90%;
+margin:0;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+font-size: 30px;
+text-align: center;
+margin-left:auto;
+  margin-right:auto;
+}
+body{
+  margin:0;
+  padding:0;
+  max-width:100%;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+/*
+ media
+  */
+
+@media(max-width:500px){
+  .container{
+    width:90%;
+  }
+  footer,header{
+    width:90%;
+  }
+}
